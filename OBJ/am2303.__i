@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS -I..\STM32F103X_FWLIB\inc -I..\USER\inc -I..\HARDWARE\inc -I..\LWIP\arch -I..\LWIP\lwip-1.4.1\src\include -I..\LWIP\lwip-1.4.1\src\include\ipv4 -I..\LWIP\lwip-1.4.1\src\include\netif -I..\LWIP\lwip_app\inc -I..\LWIP
+-I "E:\Study Demo\环境监控系统\MyDemo20190719\project\RTE"
+-I "D:\KEIL MDK\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"
+-I "D:\KEIL MDK\ARM\CMSIS\Include"
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\am2303.o --omf_browse ..\obj\am2303.crf --depend ..\obj\am2303.d "..\HARDWARE\src\AM2303.c"
